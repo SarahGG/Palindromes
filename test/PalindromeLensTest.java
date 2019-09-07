@@ -26,4 +26,15 @@ public class PalindromeLensTest {
     public void initializingBlankLensReturnsEndIndexOf0() {
         Assert.assertEquals(blankPalindromeLens.getEndIndex(), 0);
     }
+
+    @Test
+    public void settingPalindromeSizeTo2ReturnsPalindromeSizeOf2() {
+        blankPalindromeLens.setPalindromeSize(2);
+        Assert.assertEquals(blankPalindromeLens.getPalindromeSize(), 2);
+    }
+
+    @Test
+    public void initializingBlankLensReturnsPalindromeSizeOf0() {
+        Assert.assertEquals(blankPalindromeLens.getPalindromeSize(), 0);
+    }
 }

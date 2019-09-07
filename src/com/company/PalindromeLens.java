@@ -4,9 +4,11 @@ public class PalindromeLens {
 
     private int startIndex;
     private int endIndex;
+    private int palindromeSize;
 
     public PalindromeLens(String s) {
         startIndex = 0;
+        palindromeSize = s.length();
 
         if(s.length() == 0) {
             endIndex = 0;
@@ -22,11 +24,17 @@ public class PalindromeLens {
         this.startIndex = startIndex;
     }
 
-
     public int getEndIndex() {
         return endIndex;
     }
     public void setEndIndex(int endIndex) {
         this.endIndex = endIndex;
+    }
+
+    public int getPalindromeSize() {
+        return palindromeSize;
+    }
+    public void setPalindromeSize(int palindromeSize) {
+        this.palindromeSize = palindromeSize;
     }
 }
