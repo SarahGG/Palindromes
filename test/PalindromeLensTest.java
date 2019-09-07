@@ -37,4 +37,15 @@ public class PalindromeLensTest {
     public void initializingBlankLensReturnsPalindromeSizeOf0() {
         Assert.assertEquals(blankPalindromeLens.getPalindromeSize(), 0);
     }
+
+    @Test
+    public void settingIndexOffsetTo2ReturnsIndexOffsetOf2() {
+        blankPalindromeLens.setIndexOffset(15);
+        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 15);
+    }
+
+    @Test
+    public void initializingBlankLensReturnsIndexOffsetOf0() {
+        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
+    }
 }

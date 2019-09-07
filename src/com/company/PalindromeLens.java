@@ -5,10 +5,12 @@ public class PalindromeLens {
     private int startIndex;
     private int endIndex;
     private int palindromeSize;
+    private int indexOffset;
 
     public PalindromeLens(String s) {
         startIndex = 0;
         palindromeSize = s.length();
+        indexOffset = 0;
 
         if(s.length() == 0) {
             endIndex = 0;
@@ -36,5 +38,12 @@ public class PalindromeLens {
     }
     public void setPalindromeSize(int palindromeSize) {
         this.palindromeSize = palindromeSize;
+    }
+
+    public int getIndexOffset() {
+        return indexOffset;
+    }
+    public void setIndexOffset(int indexOffset) {
+        this.indexOffset = indexOffset;
     }
 }
