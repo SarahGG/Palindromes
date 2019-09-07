@@ -48,4 +48,15 @@ public class PalindromeLensTest {
     public void initializingBlankLensReturnsIndexOffsetOf0() {
         Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
     }
+
+    @Test
+    public void settingMaxIndexOffsetTo8ReturnsIndexOffsetOf8() {
+        blankPalindromeLens.setMaxIndexOffset(8);
+        Assert.assertEquals(blankPalindromeLens.getMaxIndexOffset(), 8);
+    }
+
+    @Test
+    public void initializingBlankLensReturnsMaxIndexOffsetOf0() {
+        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
+    }
 }

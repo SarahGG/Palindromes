@@ -6,11 +6,15 @@ public class PalindromeLens {
     private int endIndex;
     private int palindromeSize;
     private int indexOffset;
+    private int maxIndexOffset;
 
     public PalindromeLens(String s) {
         startIndex = 0;
         palindromeSize = s.length();
         indexOffset = 0;
+        maxIndexOffset = (palindromeSize / 2) - 1;
+
+        if(maxIndexOffset < 0) { maxIndexOffset = 0;}
 
         if(s.length() == 0) {
             endIndex = 0;
@@ -45,5 +49,12 @@ public class PalindromeLens {
     }
     public void setIndexOffset(int indexOffset) {
         this.indexOffset = indexOffset;
+    }
+
+    public int getMaxIndexOffset() {
+        return maxIndexOffset;
+    }
+    public void setMaxIndexOffset(int maxIndexOffset) {
+        this.maxIndexOffset = maxIndexOffset;
     }
 }
