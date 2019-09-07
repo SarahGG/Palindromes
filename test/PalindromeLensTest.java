@@ -3,18 +3,18 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class PalindromeLensTest {
-    private PalindromeLens blankPalindromeLens = new PalindromeLens("");
+    private PalindromeLens blankLens = new PalindromeLens("");
     private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings
 
     @Test
     public void settingStartIndexTo2ReturnsStartIndexOf2() {
-        blankPalindromeLens.setStartIndex(2);
-        Assert.assertEquals(blankPalindromeLens.getStartIndex(), 2);
+        blankLens.setStartIndex(2);
+        Assert.assertEquals(blankLens.getStartIndex(), 2);
     }
 
     @Test
     public void initializingBlankLensReturnsStartIndexOf0() {
-        Assert.assertEquals(blankPalindromeLens.getStartIndex(), 0);
+        Assert.assertEquals(blankLens.getStartIndex(), 0);
     }
 
     @Test
@@ -25,13 +25,13 @@ public class PalindromeLensTest {
 
     @Test
     public void settingEndIndexTo2ReturnsEndIndexOf2() {
-        blankPalindromeLens.setEndIndex(2);
-        Assert.assertEquals(blankPalindromeLens.getEndIndex(), 2);
+        blankLens.setEndIndex(2);
+        Assert.assertEquals(blankLens.getEndIndex(), 2);
     }
 
     @Test
     public void initializingBlankLensReturnsEndIndexOf0() {
-        Assert.assertEquals(blankPalindromeLens.getEndIndex(), 0);
+        Assert.assertEquals(blankLens.getEndIndex(), 0);
     }
 
     @Test
@@ -42,13 +42,13 @@ public class PalindromeLensTest {
 
     @Test
     public void settingPalindromeSizeTo2ReturnsPalindromeSizeOf2() {
-        blankPalindromeLens.setPalindromeSize(2);
-        Assert.assertEquals(blankPalindromeLens.getPalindromeSize(), 2);
+        blankLens.setPalindromeSize(2);
+        Assert.assertEquals(blankLens.getPalindromeSize(), 2);
     }
 
     @Test
     public void initializingBlankLensReturnsPalindromeSizeOf0() {
-        Assert.assertEquals(blankPalindromeLens.getPalindromeSize(), 0);
+        Assert.assertEquals(blankLens.getPalindromeSize(), 0);
     }
 
     @Test
@@ -59,13 +59,13 @@ public class PalindromeLensTest {
 
     @Test
     public void settingIndexOffsetTo2ReturnsIndexOffsetOf2() {
-        blankPalindromeLens.setIndexOffset(15);
-        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 15);
+        blankLens.setIndexOffset(15);
+        Assert.assertEquals(blankLens.getIndexOffset(), 15);
     }
 
     @Test
     public void initializingBlankLensReturnsIndexOffsetOf0() {
-        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
+        Assert.assertEquals(blankLens.getIndexOffset(), 0);
     }
 
     @Test
@@ -76,13 +76,13 @@ public class PalindromeLensTest {
 
     @Test
     public void settingMaxIndexOffsetTo8ReturnsIndexOffsetOf8() {
-        blankPalindromeLens.setMaxIndexOffset(8);
-        Assert.assertEquals(blankPalindromeLens.getMaxIndexOffset(), 8);
+        blankLens.setMaxIndexOffset(8);
+        Assert.assertEquals(blankLens.getMaxIndexOffset(), 8);
     }
 
     @Test
     public void initializingBlankLensReturnsMaxIndexOffsetOf0() {
-        Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
+        Assert.assertEquals(blankLens.getIndexOffset(), 0);
     }
 
     @Test
