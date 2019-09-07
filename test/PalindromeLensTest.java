@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class PalindromeLensTest {
     private PalindromeLens blankPalindromeLens = new PalindromeLens("");
+    private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings
 
     @Test
     public void settingStartIndexTo2ReturnsStartIndexOf2() {
@@ -17,6 +18,12 @@ public class PalindromeLensTest {
     }
 
     @Test
+    public void initializingSmallLensReturnsStartIndexOf0() {
+        Assert.assertEquals(smallLens.getStartIndex(), 0);
+    }
+
+
+    @Test
     public void settingEndIndexTo2ReturnsEndIndexOf2() {
         blankPalindromeLens.setEndIndex(2);
         Assert.assertEquals(blankPalindromeLens.getEndIndex(), 2);
@@ -26,6 +33,12 @@ public class PalindromeLensTest {
     public void initializingBlankLensReturnsEndIndexOf0() {
         Assert.assertEquals(blankPalindromeLens.getEndIndex(), 0);
     }
+
+    @Test
+    public void newSmallLensReturnsEndIndexOf5() {
+        Assert.assertEquals(smallLens.getEndIndex(), 5);
+    }
+
 
     @Test
     public void settingPalindromeSizeTo2ReturnsPalindromeSizeOf2() {
@@ -39,6 +52,12 @@ public class PalindromeLensTest {
     }
 
     @Test
+    public void newSmallLensReturnsPalindromeSizeOf6() {
+        Assert.assertEquals(smallLens.getPalindromeSize(), 6);
+    }
+
+
+    @Test
     public void settingIndexOffsetTo2ReturnsIndexOffsetOf2() {
         blankPalindromeLens.setIndexOffset(15);
         Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 15);
@@ -50,6 +69,12 @@ public class PalindromeLensTest {
     }
 
     @Test
+    public void newSmallLensReturnsIndexOffsetOf0() {
+        Assert.assertEquals(smallLens.getIndexOffset(), 0);
+    }
+
+
+    @Test
     public void settingMaxIndexOffsetTo8ReturnsIndexOffsetOf8() {
         blankPalindromeLens.setMaxIndexOffset(8);
         Assert.assertEquals(blankPalindromeLens.getMaxIndexOffset(), 8);
@@ -58,5 +83,10 @@ public class PalindromeLensTest {
     @Test
     public void initializingBlankLensReturnsMaxIndexOffsetOf0() {
         Assert.assertEquals(blankPalindromeLens.getIndexOffset(), 0);
+    }
+
+    @Test
+    public void newSmallLensReturnsMaxIndexOffsetOf2() {
+        Assert.assertEquals(smallLens.getMaxIndexOffset(),2);
     }
 }

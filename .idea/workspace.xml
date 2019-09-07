@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed63231c-5438-4a1b-9d0d-2cc68d252a65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/PalindromeLens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/PalindromeLens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/PalindromeLensTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PalindromeLensTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,45 +22,55 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/PalindromeLens.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
               <folding>
                 <element signature="e#579#613#1" />
-                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
                 <element signature="e#660#705#1" />
-                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
                 <element signature="e#736#768#1" />
-                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
                 <element signature="e#811#852#1" />
-                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
                 <element signature="e#889#927#1" />
-                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
                 <element signature="e#982#1035#1" />
-                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
                 <element signature="e#1069#1104#1" />
-                <element signature="e#1124#1125#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
                 <element signature="e#1153#1200#1" />
                 <element signature="e#1237#1275#1" />
-                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
                 <element signature="e#1330#1383#1" />
-                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/PalindromeLensTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+              <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
                 <element signature="e#786#787#0" expanded="true" />
                 <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+                <element signature="e#1662#1663#0" expanded="true" />
+                <element signature="e#1699#1700#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+                <element signature="e#2163#2164#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,8 +92,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/test/PalindromeLensTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/PalindromeLens.java" />
+        <option value="$PROJECT_DIR$/test/PalindromeLensTest.java" />
       </list>
     </option>
   </component>
@@ -136,7 +145,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567825489971" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567826570258" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -199,15 +208,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PalindromeLensTest - 2019.09.06 at 21h 13m 31s.xml">
-      <configuration name="PalindromeLensTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PalindromeLensTest - 2019.09.06 at 21h 14m 34s.xml">
-      <configuration name="PalindromeLensTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PalindromeLensTest - 2019.09.06 at 21h 20m 15s.xml">
-      <configuration name="PalindromeLensTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PalindromeLensTest - 2019.09.06 at 21h 22m 10s.xml">
       <configuration name="PalindromeLensTest" configurationId="JUnit" />
     </history-entry>
@@ -224,6 +224,18 @@
       <configuration name="PalindromeLensTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PalindromeLensTest - 2019.09.06 at 22h 51m 35s.xml">
+      <configuration name="PalindromeLensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeLensTest - 2019.09.06 at 23h 04m 54s.xml">
+      <configuration name="PalindromeLensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeLensTest - 2019.09.06 at 23h 17m 44s.xml">
+      <configuration name="PalindromeLensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeLensTest - 2019.09.06 at 23h 19m 57s.xml">
+      <configuration name="PalindromeLensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeLensTest - 2019.09.06 at 23h 20m 47s.xml">
       <configuration name="PalindromeLensTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -296,18 +308,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/Palindromes/com/company/Main.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/PalindromeLensTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -321,24 +321,46 @@
           <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
           <folding>
             <element signature="e#579#613#1" />
-            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
             <element signature="e#660#705#1" />
-            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
             <element signature="e#736#768#1" />
-            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
             <element signature="e#811#852#1" />
-            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
             <element signature="e#889#927#1" />
-            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
             <element signature="e#982#1035#1" />
-            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
             <element signature="e#1069#1104#1" />
-            <element signature="e#1124#1125#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
             <element signature="e#1153#1200#1" />
             <element signature="e#1237#1275#1" />
-            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
             <element signature="e#1330#1383#1" />
-            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PalindromeLensTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="89" column="59" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+            <element signature="e#1662#1663#0" expanded="true" />
+            <element signature="e#1699#1700#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2163#2164#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
           </folding>
         </state>
       </provider>
