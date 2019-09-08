@@ -7,9 +7,9 @@ public class PalindromeLensTest {
     private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings
 
     @Test
-    public void settingStartIndexTo17ReturnsStartIndexOf17() {
-        blankLens.setStartIndex(17);
-        Assert.assertEquals(blankLens.getStartIndex(), 17);
+    public void settingStartIndexTo2ReturnsStartIndexOf2() {
+        blankLens.setStartIndex(2);
+        Assert.assertEquals(blankLens.getStartIndex(), 2);
     }
 
     @Test
@@ -24,9 +24,9 @@ public class PalindromeLensTest {
 
 
     @Test
-    public void settingEndIndexTo13ReturnsEndIndexOf13() {
-        blankLens.setEndIndex(13);
-        Assert.assertEquals(blankLens.getEndIndex(), 13);
+    public void settingEndIndexTo2ReturnsEndIndexOf2() {
+        blankLens.setEndIndex(2);
+        Assert.assertEquals(blankLens.getEndIndex(), 2);
     }
 
     @Test
@@ -41,9 +41,9 @@ public class PalindromeLensTest {
 
 
     @Test
-    public void settingPalindromeSizeTo25ReturnsPalindromeSizeOf25() {
-        blankLens.setPalindromeSize(25);
-        Assert.assertEquals(blankLens.getPalindromeSize(), 25);
+    public void settingPalindromeSizeTo2ReturnsPalindromeSizeOf2() {
+        blankLens.setPalindromeSize(2);
+        Assert.assertEquals(blankLens.getPalindromeSize(), 2);
     }
 
     @Test
