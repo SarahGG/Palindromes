@@ -57,4 +57,9 @@ public class PalindromeLens {
     public void setMaxIndexOffset(int maxIndexOffset) {
         this.maxIndexOffset = maxIndexOffset;
     }
+
+    public void getSmaller() {
+        palindromeSize--;
+        endIndex = palindromeSize - 1;
+    }
 }

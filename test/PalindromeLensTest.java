@@ -4,7 +4,21 @@ import org.junit.Test;
 
 public class PalindromeLensTest {
     private PalindromeLens blankLens = new PalindromeLens("");
-    private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings
+    private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings, 21 substrings
+
+    @Test
+    public void smallLensGetsSmallerTwoTimesReturnsEndIndexOf3() {
+        smallLens.getSmaller();
+        smallLens.getSmaller();
+        Assert.assertEquals(smallLens.getEndIndex(), 3);
+    }
+
+    @Test
+    public void smallLensGetsSmallerTwoTimesReturnsPalindromeSizeOf4() {
+        smallLens.getSmaller();
+        smallLens.getSmaller();
+        Assert.assertEquals(smallLens.getEndIndex(), 3);
+    }
 
     @Test
     public void settingStartIndexTo2ReturnsStartIndexOf2() {
