@@ -1,6 +1,6 @@
 package com.company;
 
-public class PalindromeLens {
+public class PalindromeLens_RD {
 
     private int startIndex;
     private int endIndex;
@@ -8,7 +8,7 @@ public class PalindromeLens {
     private int indexOffset;
     private int maxIndexOffset;
 
-    public PalindromeLens(String s) {
+    public PalindromeLens_RD(String s) {
         startIndex = 0;
         palindromeSize = s.length();
         indexOffset = 0;
