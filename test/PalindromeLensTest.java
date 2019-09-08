@@ -1,10 +1,10 @@
-import com.company.PalindromeLens_RD;
+import com.company.PalindromeLens;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class PalindromeLens_RDTest {
-    private PalindromeLens_RD blankLens = new PalindromeLens_RD("");
-    private PalindromeLens_RD smallLens = new PalindromeLens_RD("babbab"); // has 11 palindrome substrings
+public class PalindromeLensTest {
+    private PalindromeLens blankLens = new PalindromeLens("");
+    private PalindromeLens smallLens = new PalindromeLens("babbab"); // has 11 palindrome substrings
 
     @Test
     public void settingStartIndexTo17ReturnsStartIndexOf17() {
